@@ -1,0 +1,33 @@
+{
+  "description": "Description",
+  "label": "Color Convert",
+  "category": "Misc",
+  "icon": {
+    "name": "ActionsIcon",
+    "color": "Orange"
+  },
+  "options": [
+    {
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "input",
+      "label": "Hex Code / Color Name",
+      "info": "hex color code or color name"
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      },
+      "name": "result",
+      "label": "Result"
+    }
+  ],
+  "yields": "NONE"
+}

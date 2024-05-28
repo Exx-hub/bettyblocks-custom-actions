@@ -1,0 +1,46 @@
+{
+  "description": "Description",
+  "label": "Time Difference",
+  "category": "Misc",
+  "icon": {
+    "name": "ActionsIcon",
+    "color": "Orange"
+  },
+  "options": [
+    {
+      "meta": {
+        "type": "Number"
+      },
+      "name": "year",
+      "label": "Year",
+      "info": ""
+    },
+    {
+      "meta": {
+        "type": "Number"
+      },
+      "name": "month",
+      "label": "Month",
+      "info": ""
+    },
+    {
+      "meta": {
+        "type": "Number"
+      },
+      "name": "day",
+      "label": "Day",
+      "info": ""
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      },
+      "name": "result",
+      "label": "Result"
+    }
+  ],
+  "yields": "NONE"
+}

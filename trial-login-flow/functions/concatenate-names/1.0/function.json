@@ -1,0 +1,44 @@
+{
+  "description": "Combine two text values ",
+  "label": "Concat Names",
+  "category": "Text",
+  "icon": {
+    "color": "Orange",
+    "name": "TTIcon"
+  },
+  "options": [
+    {
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "nameOne",
+      "label": "Name One",
+      "info": "first string input"
+    },
+    {
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "nameTwo",
+      "label": "Name Two",
+      "info": "second string input"
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      },
+      "name": "result",
+      "label": "Result"
+    }
+  ],
+  "yields": "NONE"
+}

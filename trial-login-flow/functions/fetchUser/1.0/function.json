@@ -1,0 +1,36 @@
+{
+  "description": "Description",
+  "label": "Fetch User",
+  "category": "External",
+  "icon": {
+    "color": "Orange",
+    "name": "AtIcon"
+  },
+  "options": [
+    {
+      "meta": {
+        "type": "Record",
+        "validations": {
+          "required": true
+        },
+        "additional": {
+          "model": ["name"]
+        }
+      },
+      "name": "record",
+      "label": "Record",
+      "info": "The record to be fetched"
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}

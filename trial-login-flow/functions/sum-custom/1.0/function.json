@@ -1,0 +1,41 @@
+{
+  "description": "Description",
+  "label": "Sum Custom",
+  "category": "Misc",
+  "icon": {
+    "name": "ActionsIcon",
+    "color": "Orange"
+  },
+  "options": [
+    {
+      "meta": {
+        "type": "Number"
+      },
+      "name": "numberOne",
+      "label": "Number One",
+      "info": "hello i am alvin!"
+    },
+
+    {
+      "meta": {
+        "type": "Number"
+      },
+      "name": "numberTwo",
+      "label": "Number Two",
+      "info": ""
+    },
+
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Number"
+        }
+      },
+      "name": "result",
+      "label": "As",
+      "info": "The result of adding up"
+    }
+  ],
+  "yields": "NONE"
+}

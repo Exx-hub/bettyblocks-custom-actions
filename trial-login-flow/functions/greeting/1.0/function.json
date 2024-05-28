@@ -1,0 +1,11 @@
+{
+  "description": "Description",
+  "label": "Greeting",
+  "category": "Misc",
+  "icon": {
+    "name": "ActionsIcon",
+    "color": "Orange"
+  },
+  "options": [],
+  "yields": "NONE"
+}
